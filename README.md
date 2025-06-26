@@ -25,6 +25,12 @@ git clone https://github.com/MatiFalsetta/bluesky-cleaner
 cd bluesky-cleaner
 ```
 
+2. Crear y activar el entorno virtual (Recomendado)
+```bash
+python -m venv env
+.\env\Scripts\Activate.ps1
+```
+
 2. Instala las dependencias:
 ```bash
 pip install atproto
