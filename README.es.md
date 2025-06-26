@@ -38,18 +38,6 @@ pip install atproto
 
 ## 💻 Uso
 
-1. Ejecuta el script:
-```bash
-python borrar_likes.py
-```
-
-2. Ingresa tu handle de Bluesky (ej: `usuario.bsky.social`)
-3. Ingresa tu contraseña
-4. Revisa las estadísticas mostradas
-5. Confirma si quieres proceder con la eliminación
-
-## 💻 Uso
-
 1. **Crear una contraseña de la aplicación** (Obligatorio):
    - Acceder a [https://bsky.app/settings/app-passwords](https://bsky.app/settings/app-passwords)
    - Agregue una nueva contraseña de aplicación para este script con un nombre único
