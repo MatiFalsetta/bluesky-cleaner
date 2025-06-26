@@ -31,7 +31,7 @@ python -m venv env
 .\env\Scripts\Activate.ps1
 ```
 
-2. Instala las dependencias:
+3. Instala las dependencias:
 ```bash
 pip install atproto
 ```
