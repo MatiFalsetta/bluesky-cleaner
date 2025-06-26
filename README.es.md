@@ -66,6 +66,20 @@ python delete_likes.py
 5. Revisar las estadísticas mostradas
 6. Confirmar si se desea continuar con la eliminación
 
+## 🗑️ Desinstalación
+
+Para eliminar completamente la herramienta del sistema:
+
+1. Borra la carpeta del repositorio:
+```bash
+# Navega al directorio principal donde clonaste el repositorio
+cd ..
+# Borra toda la carpeta bluesky-cleaner
+rm -rf bluesky-cleaner
+```
+
+**Nota**: Esto eliminará permanentemente todos los archivos, incluyendo el script y los registros. Asegúrate de no necesitar ningún archivo de la carpeta antes de borrarla.
+
 ## ⚠️ Advertencias importantes
 
 - **Esta acción es IRREVERSIBLE**: Una vez eliminados, los likes no se pueden recuperar
