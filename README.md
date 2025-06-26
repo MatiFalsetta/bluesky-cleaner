@@ -13,7 +13,7 @@ Una herramienta en Python para eliminar todos los likes de tu cuenta de Bluesky 
 
 ## 📋 Requisitos
 
-- Python 3.7 o superior
+- Python 3.10 o superior
 - Una cuenta de Bluesky
 - Acceso a internet
 
@@ -21,8 +21,8 @@ Una herramienta en Python para eliminar todos los likes de tu cuenta de Bluesky 
 
 1. Clona este repositorio:
 ```bash
-git clone https://github.com/tu-usuario/bluesky-like-cleaner.git
-cd bluesky-like-cleaner
+git clone https://github.com/MatiFalsetta/bluesky-cleaner
+cd bluesky-cleaner
 ```
 
 2. Instala las dependencias:
@@ -82,7 +82,7 @@ No, solo elimina tus registros de likes, no los posts originales de otros usuari
 
 ## 🙋‍♂️ Soporte
 
-Si tienes problemas o preguntas, abre un [issue](https://github.com/tu-usuario/bluesky-like-cleaner/issues) en este repositorio.
+Si tienes problemas o preguntas, abre un [issue](https://github.com/MatiFalsetta/bluesky-cleaner/issues) en este repositorio.
 
 ---
 
