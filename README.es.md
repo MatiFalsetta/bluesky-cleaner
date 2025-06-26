@@ -46,10 +46,10 @@ pip install atproto
 
 2. Ejecutar el script:
 ```bash
-python delete_likes.py
+python borrar_likes.py
 ```
 
-3. Introducir el nombre de usuario de Bluesky (p. ej., `user.bsky.social`)
+3. Introducir el nombre de usuario de Bluesky (p. ej., `usuario.bsky.social`)
 4. Introducir la **contraseña de la aplicación** (no la contraseña de la cuenta habitual)
 5. Revisar las estadísticas mostradas
 6. Confirmar si se desea continuar con la eliminación
