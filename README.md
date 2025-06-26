@@ -40,15 +40,21 @@ pip install atproto
 
 ## 💻 Usage
 
-1. Run the script:
+1. **Create an App Password** (Required):
+   - Go to [https://bsky.app/settings/app-passwords](https://bsky.app/settings/app-passwords)
+   - Add a new application password for this script with a unique name
+   - You do not need to check the box to allow access to your direct messages
+   - Save the generated password in xxxx-xxxx-xxxx-xxxx format (you'll need it in step 3)
+
+2. Run the script:
 ```bash
 python delete_likes.py
 ```
 
-2. Enter your Bluesky handle (e.g., `user.bsky.social`)
-3. Enter your password
-4. Review the displayed statistics
-5. Confirm if you want to proceed with the deletion
+3. Enter your Bluesky handle (e.g., `user.bsky.social`)
+4. Enter your **app password** (not your regular account password)
+5. Review the displayed statistics
+6. Confirm if you want to proceed with the deletion
 
 ## ⚠️ Important Warnings
 

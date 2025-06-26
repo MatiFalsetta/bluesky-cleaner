@@ -48,6 +48,24 @@ python borrar_likes.py
 4. Revisa las estadísticas mostradas
 5. Confirma si quieres proceder con la eliminación
 
+## 💻 Uso
+
+1. **Crear una contraseña de la aplicación** (Obligatorio):
+   - Acceder a [https://bsky.app/settings/app-passwords](https://bsky.app/settings/app-passwords)
+   - Agregue una nueva contraseña de aplicación para este script con un nombre único
+   - No es necesario marcar la casilla de permitir el acceso a tus mensajes directos
+   - Guardar la contraseña generada con formato xxxx-xxxx-xxxx-xxxx (la necesitará en el paso 3)
+
+2. Ejecutar el script:
+```bash
+python delete_likes.py
+```
+
+3. Introducir el nombre de usuario de Bluesky (p. ej., `user.bsky.social`)
+4. Introducir la **contraseña de la aplicación** (no la contraseña de la cuenta habitual)
+5. Revisar las estadísticas mostradas
+6. Confirmar si se desea continuar con la eliminación
+
 ## ⚠️ Advertencias importantes
 
 - **Esta acción es IRREVERSIBLE**: Una vez eliminados, los likes no se pueden recuperar
