@@ -1,95 +1,97 @@
 # 🦋 Bluesky Like Cleaner
 
-Una herramienta en Python para eliminar todos los likes de tu cuenta de Bluesky usando la API oficial de ATProto.
+*Read this in other languages: [Español](README.es.md)*
 
-## ✨ Características
+A Python tool to remove all likes from your Bluesky account using the official ATProto API.
 
-- 🔐 Autenticación segura con la API oficial de Bluesky
-- 📊 Muestra estadísticas de tus likes antes de eliminar
-- 🔄 Progreso en tiempo real con contador
-- ⚠️ Confirmación de seguridad antes de proceder
-- 🛡️ Control de errores y rate limiting
-- ⏸️ Posibilidad de interrumpir el proceso en cualquier momento
+## ✨ Features
 
-## 📋 Requisitos
+- 🔐 Secure authentication with the official Bluesky API
+- 📊 Shows statistics of your likes before deletion
+- 🔄 Real-time progress with counter
+- ⚠️ Safety confirmation before proceeding
+- 🛡️ Error handling and rate limiting
+- ⏸️ Ability to interrupt the process at any time
 
-- Python 3.10 o superior
-- Una cuenta de Bluesky
-- Acceso a internet
+## 📋 Requirements
 
-## 🚀 Instalación
+- Python 3.10 or higher
+- A Bluesky account
+- Internet access
 
-1. Clona este repositorio:
+## 🚀 Installation
+
+1. Clone this repository:
 ```bash
 git clone https://github.com/MatiFalsetta/bluesky-cleaner
 cd bluesky-cleaner
 ```
 
-2. Crear y activar el entorno virtual (Recomendado)
+2. Create and activate virtual environment (Recommended):
 ```bash
 python -m venv env
 .\env\Scripts\Activate.ps1
 ```
 
-3. Instala las dependencias:
+3. Install dependencies:
 ```bash
 pip install atproto
 ```
 
-## 💻 Uso
+## 💻 Usage
 
-1. Ejecuta el script:
+1. Run the script:
 ```bash
-python borrar_likes.py
+python delete_likes.py
 ```
 
-2. Ingresa tu handle de Bluesky (ej: `usuario.bsky.social`)
-3. Ingresa tu contraseña
-4. Revisa las estadísticas mostradas
-5. Confirma si quieres proceder con la eliminación
+2. Enter your Bluesky handle (e.g., `user.bsky.social`)
+3. Enter your password
+4. Review the displayed statistics
+5. Confirm if you want to proceed with the deletion
 
-## ⚠️ Advertencias importantes
+## ⚠️ Important Warnings
 
-- **Esta acción es IRREVERSIBLE**: Una vez eliminados, los likes no se pueden recuperar
-- **Proceso lento**: Con las pausas de seguridad, eliminar miles de likes puede tomar tiempo
-- **Requiere credenciales**: Necesitas tu usuario y contraseña de Bluesky
+- **This action is IRREVERSIBLE**: Once deleted, likes cannot be recovered
+- **Slow process**: With safety pauses, deleting thousands of likes may take time
+- **Requires credentials**: You need your Bluesky username and password
 
-## 🔧 Cómo funciona
+## 🔧 How it Works
 
-1. **Autenticación**: Se conecta a Bluesky usando el SDK oficial de ATProto
-2. **Obtención**: Usa `com.atproto.repo.list_records` para obtener todos tus registros de likes
-3. **Eliminación**: Elimina cada registro usando `com.atproto.repo.delete_record`
-4. **Progreso**: Muestra estadísticas en tiempo real y maneja errores
+1. **Authentication**: Connects to Bluesky using the official ATProto SDK
+2. **Retrieval**: Uses `com.atproto.repo.list_records` to get all your like records
+3. **Deletion**: Deletes each record using `com.atproto.repo.delete_record`
+4. **Progress**: Shows real-time statistics and handles errors
 
-## 🤝 Contribuir
+## 🤝 Contributing
 
-Las contribuciones son bienvenidas! Si encuentras un bug o tienes una mejora:
+Contributions are welcome! If you find a bug or have an improvement:
 
-1. Haz fork del proyecto
-2. Crea una rama para tu feature (`git checkout -b feature/AmazingFeature`)
-3. Commit tus cambios (`git commit -m 'Add some AmazingFeature'`)
-4. Push a la rama (`git push origin feature/AmazingFeature`)
-5. Abre un Pull Request
+1. Fork the project
+2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-## 📄 Licencia
+## 📄 License
 
-Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) para más detalles.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## ⚡ FAQ
 
-**¿Es seguro usar mis credenciales?**
-Sí, el script usa la biblioteca oficial de ATProto y no almacena tus credenciales.
+**Is it safe to use my credentials?**
+Yes, the script uses the official ATProto library and does not store your credentials.
 
-**¿Puedo interrumpir el proceso?**
-Sí, puedes usar Ctrl+C en cualquier momento para detener la ejecución.
+**Can I interrupt the process?**
+Yes, you can use Ctrl+C at any time to stop execution.
 
-**¿Afecta a los posts originales?**
-No, solo elimina tus registros de likes, no los posts originales de otros usuarios.
+**Does it affect the original posts?**
+No, it only deletes your like records, not the original posts from other users.
 
-## 🙋‍♂️ Soporte
+## 🙋‍♂️ Support
 
-Si tienes problemas o preguntas, abre un [issue](https://github.com/MatiFalsetta/bluesky-cleaner/issues) en este repositorio.
+If you have problems or questions, open an [issue](https://github.com/MatiFalsetta/bluesky-cleaner/issues) in this repository.
 
 ---
 
-⭐ Si este proyecto te fue útil, ¡dale una estrella!
+⭐ If this project was useful to you, give it a star!
